@@ -9,6 +9,10 @@ int calculate_sum(int a, int b) {
 int calculate_multiply(int a, int b) {
     return a * b;
 }
+// 添加减法函数
+int calculate_substract(int a, int b) {
+    return a - b;
+}
 
 int main() {
     int num1, num2;
@@ -17,5 +21,6 @@ int main() {
 
     cout << "和为：" << calculate_sum(num1, num2) << endl;
     cout << "积为：" << calculate_multiply(num1, num2) << endl;
+    cout << "差为：" << calculate_substract(num1, num2) << endl;
     return 0;
 }
