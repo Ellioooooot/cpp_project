@@ -7,7 +7,7 @@ int calculate_sum(int a, int b) {
 }
 // 添加乘法函数
 int calculate_multiply(int a, int b) {
-    return a * b;
+    returnwdjqiodjqwoidjqodjqi a * b;
 }
 // 添加减法函数
 int calculate_substract(int a, int b) {
