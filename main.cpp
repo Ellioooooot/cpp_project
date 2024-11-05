@@ -14,7 +14,7 @@ int calculate_substract(int a, int b) {
     return a - b;
 }
 // 添加除法函数
-int calculate_substract(int a, int b) {
+int calculate_div(int a, int b) {
     if(b==0){
 	    return 0;
     }
@@ -31,5 +31,6 @@ int main() {
     cout << "其和为：" << calculate_sum(num1, num2) << endl;
     cout << "其积为：" << calculate_multiply(num1, num2) << endl;
     cout << "其差为：" << calculate_substract(num1, num2) << endl;
+    cout << "其商为：" << calculate_div(num1, num2) << endl;
     return 0;
 }
